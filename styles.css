@@ -217,4 +217,13 @@ iframe {
     .contador {
         font-size: 0.8em;
     }
+
+    .elephant {
+        background-image: url('https://i.pinimg.com/originals/1a/b6/5d/1ab65de47b214f4e6acfa0fd9cde9776.gif'); /* You would replace 'elephant.jpg' with the actual image path */
+        /* background-size: cover; */
+        height: 450px; /* Adjust as necessary */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
 }
