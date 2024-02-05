@@ -62,12 +62,12 @@
 const App = () => {
     const [userData, setUserData] = React.useState([{
         id: 0,
-        name: 'Leo',
-        email: 'leo@leo.com'
+        name: 'Leonardo Ortega',
+        email: 'ortegaleo508@gmail.com'
     },{
         id: 1,
-        name: 'Jessi',
-        email: 'jessi@leo.com'
+        name: 'Jessica Chocolatl',
+        email: 'jr4735353@gmail.com'
     }]);
     const [error, setError] = React.useState(null);
     const [tiempo, setTiempo] = React.useState({
