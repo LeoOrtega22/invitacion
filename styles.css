@@ -1,0 +1,220 @@
+body {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Protest Riot', sans-serif;    
+    background-color: #f0e6f5; /* Placeholder color */
+    color: #333;
+}
+h1{
+    font-size: 5em;
+}
+
+.invitation {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Placeholder color */
+    text-align: center;
+    border-radius: 30px;
+    position: relative;
+    
+}
+
+.invitation::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border: 5px solid #ff6ec7; /* Color del borde neon rosa */
+    border-radius: 35px; /* Ajusta según sea necesario */
+    box-shadow: 0 0 10px 5px #ff6ec7, 0 0 20px 10px #ff6ec7, 0 0 30px 15px #ff6ec7, 0 0 40px 20px #ff6ec7, 0 0 50px 25px #ff6ec7, 0 0 60px 30px #ff6ec7;
+    animation: neonGlow 1.5s infinite alternate;
+    z-index: -1;
+}
+@keyframes neonGlow {
+    to {
+        opacity: 0.6;
+    }
+}
+
+/* .invitation::after {
+    content: '';
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    bottom: -15px;
+    left: -15px;
+    border: 15px solid #ff6ec7; 
+    border-radius: 45px; 
+    box-shadow: 0 0 10px 5px #ff6ec7, 0 0 20px 10px #ff6ec7, 0 0 30px 15px #ff6ec7, 0 0 40px 20px #ff6ec7, 0 0 50px 25px #ff6ec7, 0 0 60px 30px #ff6ec7;
+    animation: neonGlow 1.5s infinite alternate;
+} */
+
+
+.header {
+    background-color: #ffccf9;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-image: url('fondo.png'); /* You would replace 'elephant.jpg' with the actual image path */
+    /* background-size: cover; */
+    height: 150px; /* Adjust as necessary */
+    background-size: 90% 100%; /* Otra opción: cover, 50%, 75%, etc. */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.elephant {
+    background-image: url('https://i.pinimg.com/originals/1a/b6/5d/1ab65de47b214f4e6acfa0fd9cde9776.gif'); /* You would replace 'elephant.jpg' with the actual image path */
+    /* background-size: cover; */
+    height: 450px; /* Adjust as necessary */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.details h2 {
+    font-size: 56px; /* Adjust as necessary */
+    color: #d039d0; /* Placeholder color */
+}
+
+.details .date {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.details .message {
+    margin: 10px 0;
+}
+
+.details .address,
+.details .time {
+    font-weight: bold;
+    margin: 5px 0;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .whatsapp-button {
+    background-color: #25d366;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .whatsapp-button:hover {
+    background-color: #128C7E;
+  }
+    .whatsapp-button1 {
+        background-color: #e54dce;
+        color: #ffffff;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .whatsapp-button1:hover {
+        background-color: #e11aa5;
+    }
+    
+/* .line {
+    border: none;
+    border-bottom: 2px solid #e11aa5; /* Color de la línea 
+    margin-bottom: 10px; Espacio entre la línea y el elemento anterior
+} */
+
+.section-title {
+    border-bottom: 2px solid #ff6ec7; /* Color de la línea (puedes ajustar según sea necesario) */
+    padding-bottom: 5px; /* Espacio opcional entre el texto y la línea */
+}
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+.contador {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fcdff1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(234, 140, 231, 0.484);
+}
+
+.cifras {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff6ec7;
+}
+
+.etiqueta {
+    font-size: 0.8em;
+    color: #ff6ec7;
+    text-align: center;
+}
+
+/* Estilo adicional para el mensaje cuando llega la fecha objetivo */
+.mensaje {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff6ec7;
+}
+iframe {
+    width: 100%; /* Hace que el iframe ocupe el 100% del ancho del contenedor */
+    height: 400px; /* Establece una altura fija para el iframe, puedes ajustar según sea necesario */
+}
+
+@media (max-width: 768px) {
+    /* Estilos para dispositivos con una anchura máxima de 768px (tablets y celulares) */
+    .invitation {
+        padding: 10px;
+    }
+
+    .invitation::before {
+        border-width: 3px;
+    }
+
+    .header,
+    .elephant {
+        height: 100px;
+    }
+
+    .details h2 {
+        font-size: 2em;
+    }
+
+    .details .date {
+        font-size: 1.2em;
+    }
+
+    .button-container {
+        margin-top: 10px;
+    }
+
+    .whatsapp-button,
+    .whatsapp-button1 {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .contador {
+        font-size: 0.8em;
+    }
+}
