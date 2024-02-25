@@ -66,7 +66,7 @@ h1{
 }
 
 .elephant {
-    background-image: url('https://i.pinimg.com/originals/1a/b6/5d/1ab65de47b214f4e6acfa0fd9cde9776.gif'); /* You would replace 'elephant.jpg' with the actual image path */
+    background-image: url('https://i.pinimg.com/originals/a8/d8/37/a8d8371e0cd7621038e528495a702698.gif'); /* You would replace 'elephant.jpg' with the actual image path */
     /* background-size: cover; */
     height: 450px; /* Adjust as necessary */
     background-size: contain;
@@ -76,7 +76,7 @@ h1{
 
 .details h2 {
     font-size: 56px; /* Adjust as necessary */
-    color: #d039d0; /* Placeholder color */
+    color: #FF8CB5; /* Placeholder color */
 }
 
 .details .date {
@@ -125,7 +125,7 @@ h1{
     }
 
     .whatsapp-button1:hover {
-        background-color: #e11aa5;
+        background-color: #FF8CB5;
     }
     
 /* .line {
@@ -135,7 +135,7 @@ h1{
 } */
 
 .section-title {
-    border-bottom: 2px solid #ff6ec7; /* Color de la línea (puedes ajustar según sea necesario) */
+    border-bottom: 2px solid #FF8CB5; /* Color de la línea (puedes ajustar según sea necesario) */
     padding-bottom: 5px; /* Espacio opcional entre el texto y la línea */
 }
 
@@ -219,7 +219,7 @@ iframe {
     }
 
     .elephant {
-        background-image: url('https://i.pinimg.com/originals/1a/b6/5d/1ab65de47b214f4e6acfa0fd9cde9776.gif'); /* You would replace 'elephant.jpg' with the actual image path */
+        background-image: url('https://i.pinimg.com/originals/a8/d8/37/a8d8371e0cd7621038e528495a702698.gif'); /* You would replace 'elephant.jpg' with the actual image path */
         /* background-size: cover; */
         height: 450px; /* Adjust as necessary */
         background-size: contain;

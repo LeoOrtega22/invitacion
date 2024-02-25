@@ -88,7 +88,7 @@ const App = () => {
     const enviarMensajeWhatsApp = () => {
         console.log('voy a enviar un mensaje')
         // Puedes personalizar el mensaje predeterminado
-        var mensaje = "¡Hola! Estoy emocionado/a de asistir al Baby Shower de [Nombre de la Niña]. Nos vemos allí. 😊";
+        var mensaje = "¡Hola! Estoy emocionado/a de asistir al Baby Shower. Nos vemos allí. 😊";
         
         // Puedes personalizar el número de teléfono
         var telefono = "522213441359";
@@ -140,7 +140,7 @@ const App = () => {
                 <div className="elephant">
                 </div>
                 <div className="details">
-                    <h2 className="section-title">Nena</h2>
+                    <h2 className="section-title">¡LOS ESPERAMOS!</h2>
                     {/* <hr className="line"></hr> */}
                     <p className="date">03 de MARZO de 2024</p>
                     <p className="message">La ocasión será un momento mágico para compartir risas, consejos y buenos deseos mientras celebramos la llegada de nuestra niñita. Únanse a nosotros para disfrutar de una tarde llena de juegos, deliciosos bocadillos y momentos memorables.</p>
