@@ -101,7 +101,7 @@ const App = () => {
     };
 
     const contadorDias = () => {
-        const fechaObjetivo = new Date('2024-03-03T00:00:00Z').getTime();
+        const fechaObjetivo = new Date('2024-03-03T15:00:00Z').getTime();
 
         // Actualizar el contador cada segundo
         const intervalo = setInterval(() => {
